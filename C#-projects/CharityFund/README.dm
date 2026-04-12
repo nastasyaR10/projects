@@ -39,6 +39,6 @@
 
 В файле `Program.cs` нужно изменить строку подключения:
 
-'''csharp
+```csharp
 var connectionString = "Host=localhost;Port=5432;Database=fund;Username=postgres;Password=your_password";
-'''
+```

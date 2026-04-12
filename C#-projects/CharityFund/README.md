@@ -44,4 +44,4 @@ var connectionString = "Host=localhost;Port=5432;Database=fund;Username=postgres
 
 ## Дополнительно
 
-Более подробный отчёт по проектированию БД можно посмотреть [здесь](https://github.com/nastasyaR10/projects/blob/main/C%23-projects/CharityFund/%D0%BE%D1%82%D1%87%D1%91%D1%82.docx)
+Более подробный отчёт по проектированию БД можно посмотреть [здесь](https://github.com/nastasyaR10/projects/tree/main/C%23-projects/CharityFund/отчёт)

@@ -38,8 +38,10 @@
 ### Настройка подключения
 
 В файле `Program.cs` нужно изменить строку подключения:
+```csharp
 var connectionString = "Host=localhost;Port=5432;Database=fund;Username=postgres;Password=your_password";
+```
 
 ## Дополнительно
 
-Более подробный отчёт по проектированию БД можно посмотреть [здесь](https://github.com/nastasyaR10/projects/tree/main/C%23-projects/CharityFund/отчёт)
+Более подробный отчёт по проектированию БД можно посмотреть [здесь](https://github.com/nastasyaR10/projects/blob/main/C%23-projects/CharityFund/%D0%BE%D1%82%D1%87%D1%91%D1%82.docx)

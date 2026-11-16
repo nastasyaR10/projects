@@ -32,6 +32,8 @@ make up
 make run-api
 # или Telegram-бота (Postgres + бот)
 make run-bot
+# или HTTP-сервер с веб-сайтом (Postgres + API + frontend) (URL: http://localhost:3000)
+make up-frontend
 
 # 4. Для прекращения работы программы
 # Ctrl+C в терминале, где запущен run-api / run-bot - корректное завершение

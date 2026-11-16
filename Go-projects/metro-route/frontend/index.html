@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Metro Route</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="paper">
+
+    <header class="masthead">
+      <div class="masthead-top">
+        <span>Выпуск №1</span>
+        <span>Московский метрополитен</span>
+      </div>
+      <h1>METRO ROUTE</h1>
+      <div class="masthead-bottom">
+        <span>  </span>
+      </div>
+    </header>
+
+    <div class="columns">
+
+      <section class="col col-main">
+        <h2 class="rubric">Маршрут</h2>
+
+        <form id="route-form">
+          <label class="field">
+            <span>Откуда</span>
+            <input id="from" autocomplete="off" placeholder="Введите название станции…" required>
+          </label>
+          <label class="field">
+            <span>Куда</span>
+            <input id="to" autocomplete="off" placeholder="Введите название станции…" required>
+          </label>
+          <label class="field">
+            <span>Режим</span>
+            <select id="mode">
+              <option value="fast">Быстрее</option>
+              <option value="fewest_transfers">Меньше пересадок</option>
+            </select>
+          </label>
+          <button type="submit">Построить маршрут</button>
+        </form>
+
+        <section id="result"></section>
+      </section>
+
+      <aside class="col col-side">
+        <h2 class="rubric">Архив</h2>
+        <button id="history-btn" type="button" class="ghost">Показать историю</button>
+        <ul id="history"></ul>
+      </aside>
+
+    </div>
+
+    <footer class="colophon">
+      <span>Metro Route</span>
+    </footer>
+
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

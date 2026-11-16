@@ -48,5 +48,15 @@ services:
       postgres:
         condition: service_healthy
 
+  web:
+    build:
+      context: ./frontend
+    container_name: metro-frontend
+    profiles: ["frontend"]
+    ports:
+      - "3000:80"
+    depends_on:
+      - api
+
 volumes:
   pgdata:

@@ -31,5 +31,8 @@ up-api: ## Поднять Postgres + HTTP-сервер
 up-bot: ## Поднять Postgres + бот
 	docker compose --profile bot up -d --wait
 
+up-frontend: ## Поднять Postgres + HTTP-сервер + фронт
+	docker compose --profile api --profile frontend up -d --build --wait
+
 down: ## Остановить все контейнеры
 	docker compose down
